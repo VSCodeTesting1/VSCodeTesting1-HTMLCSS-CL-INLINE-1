@@ -1,0 +1,25 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/SeleniumTest.java",
+      "testCases": [
+        {
+          "methodName": "testItalicText",
+          "label": "Verify italic text styling",
+          "description": "Uses Selenium WebDriver to locate the paragraph with id 'italic' on StyledElements.html and asserts that its CSS font-style property is set to 'italic'."
+        },
+        {
+          "methodName": "testSmallText",
+          "label": "Verify small text font size",
+          "description": "Finds the paragraph with id 'small', reads its computed font-size, converts it to a numeric value, and asserts that it is less than 16px to confirm smaller text styling."
+        },
+        {
+          "methodName": "testCenterContent",
+          "label": "Verify centered text alignment",
+          "description": "Locates the paragraph with id 'center' and asserts that its CSS text-align property is 'center', confirming that the content is horizontally centered."
+        }
+      ]
+    }
+  ]
+}
